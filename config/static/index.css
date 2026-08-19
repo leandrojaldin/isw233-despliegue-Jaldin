@@ -1,0 +1,58 @@
+/* Reseteo básico para mantener todo ordenado */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    color: #333;
+}
+
+/* Estilos de los contenedores semánticos */
+header {
+    border-bottom: 2px solid #005A9C;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+article {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    padding-top: 10px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* ⚠️ REGLA CRÍTICA PARA EL PDF: Foco visible de tabulación ⚠️ */
+a:focus-visible {
+    outline: 3px solid #FF5722;
+    outline-offset: 3px;
+    background-color: #ffffcc;
+    border-radius: 2px;
+}
